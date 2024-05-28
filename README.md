@@ -7,6 +7,7 @@ This project uses Poetry for dependency management. To create a virtual environm
 
 Once you have set up your virtual environment and installed the dependecies, you can delete 'template_' from `.template_env` and paste your api key in the file.
 
+Finally, replace the fake urls used in 'allowed_domains' and 'start_url' in the `my_spider.py` file.
 
 To bypass a 403 response  [I followed instructions from this video](https://www.youtube.com/watch?v=NiFuoJw0sn8) to create these changes:
 
