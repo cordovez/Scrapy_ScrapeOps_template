@@ -1,6 +1,13 @@
 # Scrapy_ScrapeOps_template
 A Scrapy spider project for websites that respond with a 403 HTTP response.
 
+You must sign-up and obtain an API key from [ScrapeOps](https://scrapeops.io/).
+
+This project uses Poetry for dependency management. To create a virtual environment and install dependencies using Poetry, please [refer to this page](https://python-poetry.org/docs/basic-usage/#using-your-virtual-environment).
+
+Once you have set up your virtual environment and installed the dependecies, you can delete 'template_' from `.template_env` and paste your api key in the file.
+
+
 To bypass a 403 response  [I followed instructions from this video](https://www.youtube.com/watch?v=NiFuoJw0sn8) to create these changes:
 
 ## Settings 
